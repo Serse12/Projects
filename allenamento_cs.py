@@ -7,6 +7,12 @@ def generadomanda(argomenti):
 
      print("Parlami del " + argomenti[x][0] + " più precisamente del " + argomenti[x][1][y])
 
+     if y>0 :
+        print("Argomento precendente: " + argomenti[x][1][y-1])
+
+     if y<len(argomenti[x][1])-1:
+        print("Argomento successivo: " + argomenti[x][1][y+1])
+
 
 
 def fillcapitolo2(capitolotemp):
